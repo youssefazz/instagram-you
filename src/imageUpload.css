@@ -1,0 +1,31 @@
+.imageUpload{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.imageupload__progress{
+    margin-bottom: 5px;
+    width: 100%;
+}
+.imageupload__caption{
+    padding: 20px;
+    border: none;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;;
+}
+.fileupload__button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid lightgray;
+}
+.imageupload__button{
+    background-color: lightgray;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
